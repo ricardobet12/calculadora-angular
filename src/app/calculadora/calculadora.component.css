@@ -1,0 +1,65 @@
+h1{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.calculator{
+    background-color: rgb(189, 188, 188);
+    position: relative;
+    margin: 7% auto auto auto;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border-color: rgb(99, 94, 97);
+    border: 20px;
+    box-shadow: inset 2px 0px 10px -5px rgb(85, 80, 83),
+                inset -5px 0px 15px -5px rgb(85, 80, 83),
+                inset 10px 0px 10px -12px rgb(85, 80, 83),
+                inset -2px 0px 4px 2px rgb(85, 80, 83),
+                inset -2px 0px 10px 0px rgb(85, 80, 83);
+
+}
+
+.result {
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 8px;
+    width: 80px;
+    height: 65px;
+    font-size: 30px;
+    border: 2px solid;
+    border-color: rgb(87, 85, 85);
+    margin: 2px 2px 2px 2px;
+    transition-duration: 0.4s;
+    box-shadow: inset 5px 15px -5px rgb(109, 103, 106),
+                inset -5px 0px 15px rgb(109, 103, 106),
+                inset 10px 0px 10px rgb(109, 103, 106),
+                inset -2px 0px 4px  rgb(109, 103, 106),
+                inset -2px 0px 10px rgb(109, 103, 106);
+}
+
+.long {
+    width: 170px;
+}
+
+.responsive:hover {
+    cursor: pointer;
+    background-color: rgb(138, 134, 134);
+    color: rgb(247, 240, 240);
+    box-shadow: inset 5px 15px -5px rgb(109, 192, 182),
+    inset -5px 0px 15px rgb(199, 192, 182),
+    inset 10px 0px 10px rgb(199, 192, 182),
+    inset -2px 0px 4px  rgb(199, 192, 182),
+    inset -2px 0px 10px rgb(199, 192, 182);
+}
+
+input {
+    width: 350px;
+    height: 60px;
+    text-align: right;
+    font-size: 1.7em;
+}

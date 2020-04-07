@@ -1,19 +1,10 @@
 
 <div>
-  <p *ngFor="let u of listUsuarios">
-    {{u.idUsuario}} -- {{u.nombre}}
-  </p>
+    <p *ngFor="let usuario of listUsuarios">
+        {{usuario.nombre}}
+    </p>
 </div>
 
-<img [src]="imagenURL"/>
-
-<button [class.activo]="activedButton"  (click)="desactivarBoton(true)" [disabled]="activedButton">Boton</button>
-
-<button [style.backgroundColor]="activedButton ? 'green' : 'white'">boton 2</button>
-
-<button (mouseover)="mostrarEvento($event)">boton evento</button>
-
-
-<button (keyup.enter)="mostrarEvento($event)">boton filter</button>
-
+<!--Componente donde se encuentra la calculadora-->
+<cal-calculadora></cal-calculadora>
 <router-outlet></router-outlet>
